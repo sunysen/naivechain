@@ -1,0 +1,12 @@
+/target/*
+**/target/*
+*.class
+*.iml
+*.ipr
+*.iws
+.idea
+*.class
+.DS_Store
+.classpath
+.project
+dependency-reduced-pom.xml
