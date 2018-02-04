@@ -1,4 +1,5 @@
 # 蚂蚁矿池招聘各种语言工程师
+```
 工作职责:
 	参与挖矿、账务、统计等系统的设计与开发;
 	参与系统逻辑模型和物理模型的设计, 负责业务功能实现和线上代码调优;
@@ -13,6 +14,7 @@
 	github 与 stackoverflow 贡献者优先，对开源社区有贡献者优先;
 	熟悉比特币、区块链原理优先;
 	简历投递sen.hong@bitmain.com
+```
 # naivechain
 Naivechain - a blockchain implementation in 200 lines of code.
 
