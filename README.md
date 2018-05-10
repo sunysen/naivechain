@@ -47,7 +47,7 @@ java -jar naivechain.jar 8081 7002 ws://localhost:7001
 - add peer
 
   ```
-  curl -H "Content-type:application/json" --data '{"peer" : "ws://localhost:7001"}' http://localhost:8080/addPeer
+  curl http://localhost:8080/addPeer?peer=ws://localhost:7001
 
   ```
 
