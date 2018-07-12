@@ -40,14 +40,14 @@ java -jar naivechain.jar 8081 7002 ws://localhost:7001
 - mine block
 
   ```
-  curl -H "Content-type:application/json" --data '{"data" : "Some data to the first block"}' http://localhost:8080/mineBlock
+  curl --data "data=Some data to the first block" http://localhost:8080/mineBlock
 
   ```
 
 - add peer
 
   ```
-  curl -H "Content-type:application/json" --data '{"peer" : "ws://localhost:7001"}' http://localhost:8080/addPeer
+  curl --data "peer=ws://localhost:7001" http://localhost:8080/addPeer
 
   ```
 
